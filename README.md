@@ -8,11 +8,12 @@ Ecólogo Quantitativo | [WildMon](https://wildmon.ai)
 
 ---
 
-## 📌 Sobre esta aula
-Material adaptado do [tutorial original](https://github.com/eco4cast/Statistical-Methods-Seminar-Series/tree/main/doser-finley-spocc) de **Jeffrey Doser (Michigan State University)**, com:
-- Foco em dados de **monitoramento acústico passivo**
-- Exemplos reprodutíveis usando dados reais
-- Implementação de modelos hierárquicos bayesianos
+## 📌 Sobre esta apresentação
+Esta apresentação foi desenvolvida para um minicurso introdutório de 1h30min sobre modelos de ocupação, com foco em aplicações ecológicas — especialmente no contexto de monitoramento acústico passivo. O conteúdo abrange os principais fundamentos teóricos da ecologia da ocupação, incluindo: definição de variáveis de estado, fontes de erro em dados ecológicos (variação espacial e detectabilidade), estrutura de modelos hierárquicos e suas suposições. Também é apresentada uma introdução aos modelos de ocupação de espécie única e aos modelos multiespécies, destacando sua utilidade para lidar com grandes volumes de dados, inclusive de espécies raras ou crípticas.
+
+A parte prática da apresentação demonstrará o ajuste de um modelo de ocupação para uma espécie de sapo, utilizando dados reais de presença-ausência obtidos por meio de monitoramento acústico passivo. Os dados e scripts utilizados estarão disponíveis neste repositório para facilitar a reprodutibilidade e o treinamento de novos usuários.
+  
+O material de reprodução no R foi adaptado do [tutorial original](https://github.com/eco4cast/Statistical-Methods-Seminar-Series/tree/main/doser-finley-spocc) de **Jeffrey Doser (North Carolina State University)**
 
 ---
 
@@ -27,6 +28,8 @@ install.packages(c("MCMCvis", "sf", "stars", "ggplot2", "cowplot"))
 ```
 
 ---
+
+## 📚 Referências Bibliográficas
 
 1. **Modelagem de Ocupação**  
    - Doser, J.W., Finley, A.O. (2022). [spOccupancy: An R package for single-species, multi-species, and integrated spatial occupancy models](https://doi.org/10.1111/2041-210X.13897). *Methods in Ecology and Evolution*, 13(8), 1670-1678.  
