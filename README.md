@@ -24,7 +24,6 @@ install.packages("spOccupancy")
 
 # Dependências para análise e visualização
 install.packages(c("MCMCvis", "sf", "stars", "ggplot2", "cowplot"))
-## 📚 Referências Bibliográficas
 ```
 
 ---
