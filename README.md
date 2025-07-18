@@ -39,7 +39,7 @@ O material de reprodução no R foi adaptado do [tutorial original](https://gith
 install.packages("spOccupancy")
 
 # Dependências para análise e visualização
-install.packages(c("MCMCvis", "sf", "stars", "ggplot2", "cowplot"))
+install.packages(c("MCMCvis", "tidyverse"))
 ```
 
 ---
