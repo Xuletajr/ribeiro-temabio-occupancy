@@ -26,10 +26,10 @@ O material de reprodução no R foi adaptado do [tutorial original](https://gith
 ## 📦 Estrutura do repositório
 
 ### 📂 data/
-- `Vitreorana_Ribeiro2018EcoApps.rda`: Dados de detecção/não-detecção de *Vitreorana uranoscopa* obtidos por monitoramento acústico passivo (Song Meter 3) em 50 riachos da Mata Atlântica (2015-2016). Dados formatados para `spOccupancy`.
+- `Vitreorana_Ribeiro2018EcoApps.rda`: Dados de detecção/não-detecção de *Vitreorana uranoscopa* (perereca-de-vidro) obtidos por monitoramento acústico passivo (Song Meter 3) em 50 riachos da Mata Atlântica (2015-2016), na região na bacia do Alto Paranapanema, São Paulo, Brasil. Dados formatados para `spOccupancy`. Dados provenientes de Ribeiro et al. (2018; Efeitos da agricultura e topografia em espécies e comunidades de anfíbios tropicais. Ecological Applications, 28(6), 1554-1564). O conjunto completo de dados utilizou dados de detecção e não detecção de unidades autônomas de registro acústico (Song Meter 3) e levantamentos humanos por meio de Amostragem Acústica e Visual de Transectos, e aqui usaremos apenas os dados de monitoramento acústico autônomo. O monitoramento acústico passivo foi conduzido entre outubro de 2015 e março de 2016 em 50 riachos. O objeto contém os dados do estudo formatados para uso em *spOccupancy*
 
 ### 📂 script/
-- `occupancy_single_species_Vitreorana.R`: Ajusta modelos espaciais e não-espaciais para avaliar como a ocupação varia com características da paisagem.
+- `occupancy_single_species_Vitreorana.R`: Ajusta modelos não-espaciais e espaciais para avaliar como a ocupação da perereca-de-vidro com características da paisagem.
 
 ---
 
