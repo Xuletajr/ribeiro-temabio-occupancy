@@ -43,8 +43,11 @@ install.packages(c("MCMCvis", "sf", "stars", "ggplot2", "cowplot"))
 ## 📚 Referências Bibliográficas
 
 1. **Modelagem de Ocupação**  
-   - Doser, J.W., Finley, A.O. (2022). [spOccupancy: An R package for single-species, multi-species, and integrated spatial occupancy models](https://doi.org/10.1111/2041-210X.13897). *Methods in Ecology and Evolution*, 13(8), 1670-1678.  
    - MacKenzie, D.I. et al. (2002). [Estimating site occupancy rates when detection probabilities are less than one](https://doi.org/10.1890/0012-9658(2002)083[2248:ESORWD]2.0.CO;2). *Ecology*, 83(8), 2248-2255.
+   - MacKenzie, D.I., Royle J.A. (2005). [Designing occupancy studies: general advice and allocating survey effort](https://doi.org/10.1111/j.1365-2664.2005.01098.x)). *Journal of Applied Ecology*, 42(6), 1105-1114.
+   - Iknayan, K. J. et al. (2014). [Detecting diversity: emerging methods to estimate species diversity](https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(13)00261-9?script=true). *Trends in Ecology & Evolution
+*, 29(2), 97-106. 
+   - Doser, J.W., Finley, A.O. (2022). [spOccupancy: An R package for single-species, multi-species, and integrated spatial occupancy models](https://doi.org/10.1111/2041-210X.13897). *Methods in Ecology and Evolution*, 13(8), 1670-1678.
 
 2. **Monitoramento Acústico e Ocupação**  
    - Ribeiro Jr., J.W. et al. (2018). [Effects of agriculture and topography on tropical amphibian species and communities](https://doi.org/10.1002/eap.1741). *Ecological Applications*, 28(6), 1554-1564.
