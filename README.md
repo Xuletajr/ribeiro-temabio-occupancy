@@ -55,6 +55,7 @@ install.packages(c("MCMCvis", "tidyverse"))
 
 2. **Monitoramento Acústico e Ocupação**  
    - Ribeiro Jr., J.W. et al. (2018). [Effects of agriculture and topography on tropical amphibian species and communities](https://doi.org/10.1002/eap.1741). *Ecological Applications*, 28(6), 1554-1564.
+   - Campos-Cerqueira, M. et al. (2021). [Bird Occupancy of a Neotropical Forest Fragment Is Mostly Stable over 17 Years but Influenced by Forest Age](https://doi.org/10.3390/d13020050). *diversity*, 13(2), 50.
    - Rhinehart, T.A. et al. (2022). [A continuous-score occupancy model that incorporates uncertain machine learning output from autonomous biodiversity surveys](https://doi.org/10.1111/2041-210X.13905). *Methods in Ecology and Evolution*, 13(8), 1778-1789.
    - Ribeiro Jr., J.W. et al. (2022). [Passive acoustic monitoring as a tool to investigate the spatial distribution of invasive alien species](https://doi.org/10.3390/rs14184565). *Remote Sensing*, 14(18), 4565.
 
