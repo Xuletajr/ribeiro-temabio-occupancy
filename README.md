@@ -9,11 +9,23 @@ Ecólogo Quantitativo | [WildMon](https://wildmon.ai)
 ---
 
 ## 📌 Sobre esta apresentação
-Esta apresentação foi desenvolvida para um minicurso introdutório de 1h30min sobre modelos de ocupação, com foco em aplicações ecológicas — especialmente no contexto de monitoramento acústico passivo. O conteúdo abrange os principais fundamentos teóricos da ecologia da ocupação, incluindo: definição de variáveis de estado, fontes de erro em dados ecológicos (variação espacial e detectabilidade), estrutura de modelos hierárquicos e suas suposições. Também é apresentada uma introdução aos modelos de ocupação de espécie única e aos modelos multiespécies, destacando sua utilidade para lidar com grandes volumes de dados, inclusive de espécies raras ou crípticas.
+Esta apresentação foi desenvolvida para um palestra introdutório de 1h30min sobre modelos de ocupação, com foco em aplicações ecológicas — especialmente no contexto de monitoramento acústico passivo. O conteúdo abrange os fundamentos teóricos básicos da ecologia da ocupação, incluindo: definição de variáveis de estado, fontes de erro em dados ecológicos (variação espacial e detectabilidade), estrutura de modelos hierárquicos e suas suposições. Também é apresentada uma introdução aos modelos de ocupação de espécie única e aos modelos multiespécies, destacando sua utilidade para lidar com grandes volumes de dados, inclusive de espécies raras ou crípticas.
 
 A parte prática da apresentação demonstrará o ajuste de um modelo de ocupação para uma espécie de sapo, utilizando dados reais de presença-ausência obtidos por meio de monitoramento acústico passivo. Os dados e scripts utilizados estarão disponíveis neste repositório para facilitar a reprodutibilidade e o treinamento de novos usuários.
   
 O material de reprodução no R foi adaptado do [tutorial original](https://github.com/eco4cast/Statistical-Methods-Seminar-Series/tree/main/doser-finley-spocc) de **Jeffrey Doser (North Carolina State University)**
+
+---
+
+## 📦 Estrutura do repositório
+
+
+---
+### data
+- Vitreorana_Ribeiro2018EcoApps.rda: Dados de uma única espécie, *Vitreorana uranoscopa* (perereca-de-vidro), no Brasil. Este conjunto de dados é proveniente de Ribeiro et al. (2018; Efeitos da agricultura e topografia em espécies e comunidades de anfíbios tropicais. Aplicações Ecológicas, 28(6), 1554-1564). O conjunto completo de dados utilizou dados de detecção e não detecção de unidades autônomas de registro acústico (Song Meter 3) e levantamentos humanos por meio de Amostragem Acústica e Visual de Transectos, e aqui usaremos apenas os dados de monitoramento acústico autônomo. O monitoramento acústico passivo foi conduzido entre outubro de 2015 e março de 2016 em 50 riachos. O objeto contém os dados do estudo formatados para uso em *spOccupancy*.
+
+### script
+- occupancy_single_species_Vitreorana.R: O script ajusta um modelo de ocupação espacial e não espacial para avaliar como a ocupação de uma espécie de anfíbio (*Vitreorana uranoscopa*) varia ao longo de um gradiente de características da paisagem em uma região de Mata Atlântica na bacia do Alto Paranapanema, São Paulo, Brasil. Este script utiliza os dados Vitreorana_Ribeiro2018EcoApps.rda já preparados para rodar no pacote *spOccupancy*.
 
 ---
 
